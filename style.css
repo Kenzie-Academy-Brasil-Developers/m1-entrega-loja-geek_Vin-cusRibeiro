@@ -64,7 +64,7 @@ body .navegacao img {
 }
 
 .primeiraSessao ul {
-  display: flex;
+  display: inline-flex;
 }
 .primeiraSessao ul li {
   background-color: rgba(224, 224, 224, 0.308);
@@ -78,6 +78,7 @@ body .navegacao img {
   width: 207px;
   height: 275px;
   align-items: center;
+  margin-left: 5px;
 }
 
 .primeiraSessao ul li h3 {
@@ -99,7 +100,7 @@ body .navegacao img {
 }
 
 .segundaSessao ul {
-  display: flex;
+  display: inline-flex;
 }
 
 .segundaSessao ul li {
@@ -114,6 +115,7 @@ body .navegacao img {
   width: 207px;
   height: 275px;
   align-items: center;
+  margin-left: 5px;
 }
 
 .segundaSessao ul li h3 {

@@ -14,24 +14,84 @@ let produtosAction = [
     nome: "Baby Woda",
     preco: "R$250",
   },
+  {
+    img: "./assets/img/noImg.png",
+    nome: "None",
+    preco: "R$00",
+  },
+  {
+    img: "./assets/img/noImg.png",
+    nome: "None",
+    preco: "R$00",
+  },
+  {
+    img: "./assets/img/noImg.png",
+    nome: "None",
+    preco: "R$00",
+  },
+  {
+    img: "./assets/img/noImg.png",
+    nome: "None",
+    preco: "R$00",
+  },
+  {
+    img: "./assets/img/noImg.png",
+    nome: "None",
+    preco: "R$00",
+  },
+  {
+    img: "./assets/img/noImg.png",
+    nome: "None",
+    preco: "R$00",
+  },
 ];
 
 let produtosPaint = [
-  (animeWoman = {
+  animeWoman = {
     nome: "Relógio",
     img: "./assets/img/painting/clock.jpg",
     preco: "R$15,00",
-  }),
-  (dragonBallPensornagem = {
+  },
+  dragonBallPensornagem = {
     img: "./assets/img/painting/gamepad.jpg",
     nome: "Game Pad",
     preco: "R$20",
-  }),
-  (starWarsPersonagem = {
+  },
+  starWarsPersonagem = {
     nome: "C3PO",
     img: "./assets/img/painting/personagem.jpg",
     preco: "R$25",
-  }),
+  },
+  {
+    img: "./assets/img/noImg.png",
+    nome: "None",
+    preco: "R$00",
+  },
+  {
+    img: "./assets/img/noImg.png",
+    nome: "None",
+    preco: "R$00",
+  },
+  {
+    img: "./assets/img/noImg.png",
+    nome: "None",
+    preco: "R$00",
+  },
+  {
+    img: "./assets/img/noImg.png",
+    nome: "None",
+    preco: "R$00",
+  },
+  {
+    img: "./assets/img/noImg.png",
+    nome: "None",
+    preco: "R$00",
+  },
+  {
+    img: "./assets/img/noImg.png",
+    nome: "None",
+    preco: "R$00",
+  },
 ];
 
 for (let i = 0; i < produtosAction.length; i++) {
@@ -46,7 +106,6 @@ for (let i = 0; i < produtosAction.length; i++) {
   li.append(img, title, preco);
   const list = document.querySelector(".primeiraSessao ul");
   list.appendChild(li);
-  
 }
 
 for (let i = 0; i < produtosPaint.length; i++) {
